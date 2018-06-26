@@ -1,5 +1,8 @@
+(display "\n")
 (define atom?
 	(lambda (x) 
+		(display x)
+		(display "\n")
 		(and (not (pair? x)) (not (null? x)))))
 
 (define lat
